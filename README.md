@@ -1,6 +1,6 @@
 # Surfs Up!
 
-![surfs-up.jpeg](Images/surfs-up.jpeg)
+![surfs-up.jpeg](Images/surfs-up.png)
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
@@ -102,7 +102,17 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
 * The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
 
-### Temperature Analysis
+### Temperature Analysis I
+
+* Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
+
+* You may either use SQLAlchemy or pandas's `read_csv()` to perform this portion.
+
+* Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
+
+* Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
+
+### Temperature Analysis II
 
 * The starter notebook contains a function called `calc_temps` that will accept a start date and end date in the format `%Y-%m-%d` and return the minimum, average, and maximum temperatures for that range of dates.
 
@@ -116,7 +126,7 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
     ![temperature](Images/temperature.png)
 
-### Daily Rainfall Average.
+### Daily Rainfall Average
 
 * Calculate the rainfall per weather station using the previous year's matching dates.
 
